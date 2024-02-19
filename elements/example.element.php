@@ -36,16 +36,16 @@ class ExampleElement extends OxyEl {
     function render($options, $defaults, $content) {
         // Output here.
         ?>
-        <div class='my-example-class'>Hello</div>
+        <div class='bg-blue-800 p-12 text-2xl text-yellow-100'>Hello</div>
         <?php
 
-        $this->El->inlineJS(
-            "document.querySelectorAll('.my-example-class').forEach( (element) => {
-                element.addEventListener('click', () => {
-                    alert('clicked');
-                });
-            })"
-        );
+        // $this->El->inlineJS(
+        //     "document.querySelectorAll('.my-example-class').forEach( (element) => {
+        //         element.addEventListener('click', () => {
+        //             alert('clicked');
+        //         });
+        //     })"
+        // );
     }
 
     function controls() {

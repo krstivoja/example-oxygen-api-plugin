@@ -1,0 +1,15 @@
+{
+  "name": "example-oxygen-api-plugin",
+  "version": "1.0.0",
+  "description": "Example Oxygen API Element Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./elements/input.css -o ./elements/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
